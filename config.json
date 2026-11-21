@@ -1,0 +1,18 @@
+{
+  "llm": {
+    "base_url": "https://efnkj-136-110-20-146.free.pinggy.net",
+    "endpoint": "/api/chat",
+    "model": "gemma4:e4b",
+    "temperature": 0.2,
+    "max_tokens": 2048,
+    "timeout_seconds": 60
+  },
+  "agent": {
+    "max_steps": 10,
+    "system_prompt": "You are a helpful AI Agent capable of using tools to solve user tasks. Follow the ReAct pattern: Observe, Think, Act."
+  },
+  "loop_detection": {
+    "repeat_threshold": 3,
+    "ping_pong_threshold": 4
+  }
+}
