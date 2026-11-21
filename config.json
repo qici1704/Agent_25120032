@@ -1,6 +1,6 @@
 {
   "llm": {
-    "base_url": "https://efnkj-136-110-20-146.free.pinggy.net",
+    "base_url": "https://qmmxk-35-245-130-46.run.pinggy-free.link",
     "endpoint": "/api/chat",
     "model": "gemma4:e4b",
     "temperature": 0.2,
